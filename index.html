@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dileep Weds Reetu</title>
+
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+	</script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+		integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+		integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+		integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+	</script>
+
+</head>
+
+<body>
+
+	<div class="container-fluid">
+		<section>
+			<div class="row">
+
+
+
+				<div class="col-md-12 col-sm-12">
+					<img src="assets/img/Banner.png" style="width:100%;  ">
+				</div>
+
+
+			</div>
+		</section>
+
+		<!-- <div class="bg-image" style="background-image: url('assets/img/cnt_bg.jpg');
+			   height: 100vh">
+		</div> -->
+
+
+
+		<section style="padding-top:1rem;">
+
+
+
+			<div class="row">
+				<!-- <div class="bg-image" style="background-image: url('assets/img/cnt_bg.jpg');
+			   height: 100vh"> -->
+
+
+
+				<div class="col-md-6 col-sm-6" style="padding-top:3rem;">
+
+
+					<div class="card" style="box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+					rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+					rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; width:360px; height:295px">
+						<iframe width="300" height="235" src="https://www.youtube.com/embed/tgbNymZ7vqY"
+							style="margin-left:30px;margin-top:30px;">
+						</iframe></div>
+
+				</div>
+
+
+				<div class="col-md-6 col-sm-6">
+					<div class="animated pulse infinite">
+						<img src="assets/img/item-1.png" style="height:105px; width:165px;">
+					</div>
+					<div class="position-relative">
+
+						<img class="bg obj-fit-cover vignette-inset" src="assets/img/cnt_bg.jpg" alt="..."
+							style="width:100%; border-radius: 5%; box-shadow: inset 0px 0px 150px black; z-index: -1; ">
+
+
+
+
+
+					</div>
+
+
+				</div>
+				<div class="float-end">
+					<img src="assets/img/item-2.png" class="float-end" style="height:105px; width:165px;">
+				</div>
+			</div>
+
+			<!-- </div> -->
+
+
+		</section>
+
+
+
+		<secttion style="padding-top:10rem;">
+			<div class="row">
+				<div class="col-md-12 col-sm-12" style="padding-top:5rem;">
+					<div class="text-center">
+						<h3 class="h3" style="color:#878787;">Jnanakshi Kalyana Mantapa , BM Road, Hassan</h3>
+
+						<button type="button" id="button-33"><a href="https://goo.gl/maps/WHkxAzerhHgXdsAJ9"
+								style="text-decoration:none;"><i class="fa-solid fa-location-dot"></i> Get a
+								Direction</a></button>
+					</div>
+
+
+
+					<div class="text-center" style="margin-top:2rem;">
+						<h6 class="h6" style="color:#878787;"><strong>Reception</strong> : 10 Dec 2022</h6>
+						<h6 class="h6" style="color:#878787;"><strong>Time</strong> : 7:00 PM</h6>
+					</div>
+
+
+
+
+					<div class=" d-flex justify-content-center">
+						<div id="clockdiv">
+							<!-- <h1 style="color: #fff;">Countdown Begins</h1> -->
+
+							<div>
+								<span class="days" id="day"></span>
+								<div class="smalltext">Days</div>
+							</div>
+							<div>
+								<span class="hours" id="hour"></span>
+								<div class="smalltext">Hours</div>
+							</div>
+							<div>
+								<span class="minutes" id="minute"></span>
+								<div class="smalltext">Minutes</div>
+							</div>
+							<div>
+								<span class="seconds" id="second"></span>
+								<div class="smalltext">Seconds</div>
+							</div>
+
+
+						</div>
+					</div>
+					<p id="demo"></p>
+
+					<p class="text-center" style="font-family: Fuzzy Bubbles,cursive;"> days until "best friend" gets
+						upgraded to "spouse."
+					</p>
+
+				</div>
+			</div>
+		</secttion>
+
+
+
+
+		<section style="padding-top:2rem;">
+			<div class="row" style="display:flex;">
+				<div class="col-md-12 col-sm-12" style="padding-top:3rem;">
+					<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<!-- <img class="d-block w-100" src="..." alt="First slide"> -->
+
+								<div class="card"
+									style=" background-color:#b9dec0;   transform: rotate(4deg);width:18rem; ">
+									<div class="card-body "
+										style="font-size:24px; font-family: Fuzzy Bubbles,cursive; color:#495057;">
+										<!-- <div class="text-center"
+											> -->
+
+
+										Best wishes on this wonderful journey, as you build
+										your new lives together
+										<!-- </div> -->
+
+									</div>
+								</div>
+
+							</div>
+							<div class="carousel-item">
+								<!-- <img class="d-block w-100" src="..." alt="Second slide"> -->
+								<div class="card"
+									style=" background-color:#ffeaea;   transform: rotate(-4deg); width:18rem;  ">
+									<div class="card-body"
+										style="font-size:24px; font-family: Fuzzy Bubbles,cursive; color:#495057;">
+										<!-- <div class="text-center"
+											> -->
+										May your joining together bring you more joy than you can imagine</div>
+
+									<!-- </div> -->
+								</div>
+							</div>
+							<div class="carousel-item">
+								<!-- <img class="d-block w-100" src="..." alt="Third slide"> -->
+								<div class="card"
+									style=" background-color:#b9dec0;   transform: rotate(4deg); width:18rem; ">
+									<div class="card-body"
+										style="font-size:24px; font-family: Fuzzy Bubbles,cursive; color:#495057;">
+										<!-- <div class="text-center"
+											> -->
+										Best wishes on this wonderful journey, as you build your new lives together
+										<!-- </div> -->
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+							data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							
+						</a>
+						<a class="carousel-control-next" href="#carouselExampleControls" role="button"
+							data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						
+						</a> -->
+					</div>
+				</div>
+
+				<!-- Button trigger modal -->
+				<div class="text-center">
+					<button type="button" id="button-33" data-bs-toggle="modal" data-bs-target="#exampleModal">
+						Send Your Wishes
+					</button>
+				</div>
+			</div>
+		</section>
+
+
+
+
+
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<!-- <h5 class="modal-title" id="exampleModalLabel">Send Your Wishes </h5> -->
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<form autocomplete="off">
+
+							<div class="form-group">
+								<!-- <input type="textarea" name="messege" id="message" class="form-control"
+									placeholder="Your Message *" value="" required="required" /> -->
+								<textarea class="form-control" aria-label="With textarea " name="messege" id="message"
+									placeholder="Type your wishes & greetings..." value="" required="required" cols="30"
+									rows="5" style="font-family: Fuzzy Bubbles,cursive;"></textarea>
+							</div>
+
+
+							<div class="form-group">
+								<label for="name" class="form-label">Name</label>
+								<input type="text" name="Name" id="name" class="form-control" placeholder="Your Name *"
+									value="" required="required" />
+							</div>
+
+
+
+							<!-- <div class="form-group">
+								<input type="button" name="submit" class="btnSubmit btn-block" onclick="gotowhatsapp()"
+									value="Submit" />
+							</div> -->
+						</form>
+					</div>
+					<div class="modal-footer">
+						<!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+						<button type="button" id="button-33" onclick="gotowhatsapp()" value="Submit">Send to
+							Groom</button>
+						<button type="button" id="button-33" onclick="gotowhatsapp()" value="Submit">Send to
+							Bride</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- <div class="container register">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="tab-pane fade show active text-align form-new" id="home" role="tabpanel"
+						aria-labelledby="home-tab">
+						<h3 class="register-heading text-nowrap">HTML Form to WhatsApp</h3>
+						<div class="row register-form">
+							<div class="col-md-12">
+								<form autocomplete="off">
+									<div class="form-group">
+										<input type="text" name="Name" id="name" class="form-control"
+											placeholder="Your Name *" value="" required="" />
+									</div>
+									<div class="form-group">
+										<input type="text" name="Email" id="email" class="form-control"
+											placeholder="Your Email *" value="" required="" />
+									</div>
+									<div class="form-group">
+										<input type="number" name="Phone" id="phone" class="form-control"
+											placeholder="Your Contact Number *" value="" required="" />
+									</div>
+									<div class="form-group">
+										<select class="form-control" id="service">
+											<option>Default select</option>
+											<option>Website Development</option>
+											<option>Mobile App Development</option>
+											<option>Web and Mobile Application</option>
+										</select>
+									</div>
+									<div class="form-group">
+										<input type="button" name="submit" class="btnSubmit btn-block"
+											onclick="gotowhatsapp()" value="Submit" />
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> -->
+
+
+
+
+	</div>
+
+	<!-- <div class="row">
+		<button id="start-camera">Start Camera</button>
+		<video id="video" width="320" height="240" autoplay></video>
+		<button id="start-record">Start Recording</button>
+		<button id="stop-record">Stop Recording</button>
+		<a id="download-video" download="test.webm">Download Video</a>
+	</div> -->
+
+
+
+
+
+
+</body>
+
+<script>
+	var deadline = new Date("dec 11, 2022 10:00:00").getTime();
+
+	var x = setInterval(function () {
+
+		var now = new Date().getTime();
+		var t = deadline - now;
+		var days = Math.floor(t / (1000 * 60 * 60 * 24));
+		var hours = Math.floor((t % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+		var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
+		var seconds = Math.floor((t % (1000 * 60)) / 1000);
+		document.getElementById("day").innerHTML = days;
+		document.getElementById("hour").innerHTML = hours;
+		document.getElementById("minute").innerHTML = minutes;
+		document.getElementById("second").innerHTML = seconds;
+		if (t < 0) {
+			clearInterval(x);
+			document.getElementById("demo").innerHTML = "TIME UP";
+			document.getElementById("day").innerHTML = '0';
+			document.getElementById("hour").innerHTML = '0';
+			document.getElementById("minute").innerHTML = '0';
+			document.getElementById("second").innerHTML = '0';
+		}
+	}, 1000);
+</script>
+
+
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+	function gotowhatsapp() {
+
+		var name = document.getElementById("name").value;
+		var phone = document.getElementById("phone").value;
+		var email = document.getElementById("email").value;
+		var service = document.getElementById("service").value;
+
+		var url = "https://wa.me/919738805931?text=" +
+			"Name: " + name + "%0a" +
+			"Phone: " + phone + "%0a" +
+			"Email: " + email + "%0a" +
+			"Service: " + service;
+
+		window.open(url, '_blank').focus();
+	}
+
+
+
+
+
+
+
+	let camera_button = document.querySelector("#start-camera");
+	let video = document.querySelector("#video");
+	let start_button = document.querySelector("#start-record");
+	let stop_button = document.querySelector("#stop-record");
+	let download_link = document.querySelector("#download-video");
+
+	let camera_stream = null;
+	let media_recorder = null;
+	let blobs_recorded = [];
+
+	camera_button.addEventListener('click', async function () {
+		camera_stream = await navigator.mediaDevices.getUserMedia({
+			video: true,
+			audio: true
+		});
+		video.srcObject = camera_stream;
+	});
+
+	start_button.addEventListener('click', function () {
+		// set MIME type of recording as video/webm
+		media_recorder = new MediaRecorder(camera_stream, {
+			mimeType: 'video/webm'
+		});
+
+		// event : new recorded video blob available 
+		media_recorder.addEventListener('dataavailable', function (e) {
+			blobs_recorded.push(e.data);
+		});
+
+		// event : recording stopped & all blobs sent
+		media_recorder.addEventListener('stop', function () {
+			// create local object URL from the recorded video blobs
+			let video_local = URL.createObjectURL(new Blob(blobs_recorded, {
+				type: 'video/webm'
+			}));
+			download_link.href = video_local;
+		});
+
+		// start recording with each recorded blob having 1 second video
+		media_recorder.start(1000);
+	});
+
+	stop_button.addEventListener('click', function () {
+		media_recorder.stop();
+	});
+</script>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+	integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+	integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+</script>
+
+</html>
